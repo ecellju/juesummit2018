@@ -510,7 +510,7 @@ body {
     <section class='first-section'>
       <div class='row' >
         <div class='col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3' >
-          <img src="logo.png" style="height: 400px ; width:  600px;"" />
+          <img src="assets/img/logo.png" style="height: 400px ; width:  600px;"" />
          
           <h3 style="letter-spacing: 3px;text-align: center;color: white;margin-top: -115px">Tomorrow happens here</h3>
         </div>
