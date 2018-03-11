@@ -208,6 +208,10 @@ p {
 
 .layer-4 {
   background-image: url("assets/img/ironman.png  ");
+  transform: translate(0,10px);
+	-ms-transform: translate(0,10px); /* IE 9 */
+    -webkit-transform: translate(0,10px); /* Safari */
+  transition: transform 2s ease-in-out;	
   background-size: contain;
 }
 
@@ -586,7 +590,7 @@ body {
   <div class='layer-2 layer' data-depth='0.50' data-type='parallax'></div>
   <div class='layer-3 layer' data-depth='0.80' data-type='parallax'></div>
   <div class='layer-overlay layer' data-depth='0.85' data-type='parallax'></div>
-  <div class='layer-4 layer' data-depth='1.00' data-type='parallax'></div>
+  <div class='layer-4 layer' id="iron-man" data-depth='1.00' data-type='parallax'></div>
 </div>
 <div id='hero-mobile'></div>
 
@@ -597,7 +601,7 @@ body {
     <section class='first-section'>
       <div class='row' >
         <div class='col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3' >
-          <img src="logo.png" style="height: 400px ; width:  600px;"" />
+          <img src="assets/img/logo.png" style="height: 400px ; width:  600px;"" />
          
           <h3 style="letter-spacing: 3px;text-align: center;color: white;margin-top: -115px">Tomorrow happens here</h3>
         </div>
@@ -777,7 +781,15 @@ body {
 </script>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-
+<script>
+var i=1;
+	setInterval(function(){ 
+		if(i%2==1)document.getElementById('iron-man').style.transform= "translateY(-5px)";
+		else document.getElementById('iron-man').style.transform= "translateY(+5px)";
+		i++;
+	}, 2000);
+	
+</script>
 <script type="text/javascript" >
 
 $(document).ready(function() {
