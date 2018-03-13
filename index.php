@@ -848,7 +848,7 @@ body {
    		<div class='row' style="margin-top: 10% ;color: inherit; background-color: rgba(0,0,0, .5)">
    			<div class="container-fluid" style="border-top: 1px solid rgba(22, 13, 68, 1)">
 				<div class="col-sm-8 end-footer" style="text-align: left">
-					<img id="footer-logo" max-height:70px;src="https://i.imgur.com/0d21Q0b.png" style="margin-top:10px;margin-bottom:10px;max-width:100%">
+					<img id="footer-logo" src="https://i.imgur.com/0d21Q0b.png" style="max-height:70px;margin-top:10px;margin-bottom:10px;max-width:100%">
 				</div>
 				<div class="col-sm-4 end-footer" style="text-align: right;color:whitesmoke; padding-top:1.5%;font-size:15px">
 					<div class="col-xs-12">
