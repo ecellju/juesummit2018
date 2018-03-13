@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<title>E Summit</title>
+		<title>JU Entrepreneurship Summit '18 | JU ECell</title>
 
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="description" content="Kolkata's First Entrepreneurship">
+    <meta name="author" content="JU Entrepreneurship Cell">
 		<style type="text/css">
 html{
     height: 100%;
@@ -847,7 +848,7 @@ body {
    		<div class='row' style="margin-top: 10% ;color: inherit; background-color: rgba(0,0,0, .5)">
    			<div class="container-fluid" style="border-top: 1px solid rgba(22, 13, 68, 1)">
 				<div class="col-sm-8 end-footer" style="text-align: left">
-					<img id="footer-logo" src="https://i.imgur.com/0d21Q0b.png" style="margin-top:10px;margin-bottom:10px;max-width:100%">
+					<img id="footer-logo" max-height:70px;src="https://i.imgur.com/0d21Q0b.png" style="margin-top:10px;margin-bottom:10px;max-width:100%">
 				</div>
 				<div class="col-sm-4 end-footer" style="text-align: right;color:whitesmoke; padding-top:1.5%;font-size:15px">
 					<div class="col-xs-12">
