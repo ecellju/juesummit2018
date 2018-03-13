@@ -123,6 +123,7 @@ display:flex;
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------- */
+			.temp-hide{display:none;}
 
 
 
@@ -134,7 +135,23 @@ display:flex;
   color: #fff;
   height: 100%;
 }
-
+#background {
+background: radial-gradient(at bottom right, #32577a 25%, #05363b 55%, #000000 90%); background: #160d44; /* Old browsers */
+background: -moz-linear-gradient(top, #160d44 1%, #ea3848 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #160d44 1%,#ea3848 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #160d44 1%,#ea3848 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#160d44', endColorstr='#ea3848',GradientType=0 ); /* IE6-9 */
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+#background-footer {
+background: radial-gradient(at bottom right, #32577a 25%, #05363b 55%, #000000 90%); background: #160d44; /* Old browsers */
+background: -moz-linear-gradient(top, #000313 1%, #ea3848 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #000313 1%,#ea3848 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #000313 1%,#ea3848 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#160d44', endColorstr='#ea3848',GradientType=0 ); /* IE6-9 */
+	
+}	
 #hero {
   height: 800px;
   overflow: hidden;
@@ -201,13 +218,13 @@ p {
 }
 
 .layer-3 {
-  background-image: url("assets/img/mm2.png ");
+  background-image: url("assets/img/mm2.png");
   
 
 }
 
 .layer-4 {
-  background-image: url("assets/img/ironman.png  ");
+  background-image: url("assets/img/ironman2.png");
   transform: translate(0,10px);
 	-ms-transform: translate(0,10px); /* IE 9 */
     -webkit-transform: translate(0,10px); /* Safari */
@@ -247,14 +264,6 @@ p {
       background:white;
       display:block;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -574,23 +583,24 @@ body {
 
 
 		</style>
-		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<!--		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>-->
 
-
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
 
 
 		
 	</head>
-	<body style="background-color: orange">
+	<body id="background">
 		<div id='hero'>
+  <div class='layer-2 layer' data-depth='0.50' data-type='parallax'></div>
   <div class='layer-bg layer' data-depth='0.10' data-type='parallax'></div>
   <div class='layer-1 layer' data-depth='0.20' data-type='parallax'></div>
-  <div class='layer-2 layer' data-depth='0.50' data-type='parallax'></div>
+  
+  <div class='layer-4 layer' id="iron-man" data-depth='1.00' data-type='parallax'></div>
   <div class='layer-3 layer' data-depth='0.80' data-type='parallax'></div>
   <div class='layer-overlay layer' data-depth='0.85' data-type='parallax'></div>
-  <div class='layer-4 layer' id="iron-man" data-depth='1.00' data-type='parallax'></div>
 </div>
 <div id='hero-mobile'></div>
 
@@ -601,26 +611,29 @@ body {
     <section class='first-section'>
       <div class='row' >
         <div class='col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3' >
-          <img src="assets/img/logo.png" style="height: 400px ; width:  600px;"" />
+          <img src="assets/img/logo.png" style="height: 400px ; width:  600px;" />
          
           <h3 style="letter-spacing: 3px;text-align: center;color: white;margin-top: -115px">Tomorrow happens here</h3>
         </div>
       </div>
-      <div class='row' style="margin-top: 15%;margin-bottom: 20%;text-align: center;">
-        <div class='about-vid  col-lg-6 col-md-6 col-sm-6' style="overflow: hidden;"">
+      <div class='row' style="margin-top: 5%;margin-bottom: 20%;text-align: center;">
+<!--
+        <div class='about-vid  col-lg-6 col-md-6 col-sm-6' style="overflow: hidden;">
           <img src="https://media1.tenor.com/images/ec324ff5561eafab43cc4b88382c8439/tenor.gif?itemid=3518069"/>
         </div>
-        <div class='about-text col-lg-6 col-md-6 col-sm-6' style="text-align: center;">
+-->
+        <div class='about-text col-sm-12' style="text-align: center;">
             <div></div>
+<!--
             <h1 class="aboutwithunderline hideme" style="font-family: 'Alfa Slab One', cursive;
                     ; letter-spacing: 4px;color: white">About</h1>
+-->
             </div>
             <div >
-            <div id="divToShowHide" class=' hideme about-text col-lg-6 col-md-6 col-sm-6' style="text-align: justify;">
-            <p style="margin-top: 40px">
-                aLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum, nunc vitae laoreet imperdiet, dui neque pulvinar mi, non convallis dolor sem in orci. Morbi ac mauris nec diam vulputate vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse non magna rutrum, facilisis lectus ut, volutpat libero. Donec ante leo, sodales eu urna vel, molestie euismod ligula. Nunc nec nibh quis justo efficitur pulvinar.
-
-
+            <div id="divToShowHide" class=' hideme about-text ' style="text-align: center;">
+            <br><br>
+               <p>
+                Jadavpur University Entrepreneurship Cell presents to you <strong>Jadavpur University Entrepreneurship Summit 2018</strong>.<br> This will marks Jadavpur University’s arrival in the league of institutions promoting and nurturing entrepreneurship among the youth. We wish to ignite the passion of Entrepreneurship in the minds of the students, as well as reward the entrepreneurial zest.
             </p>
             </div>
             </div>
@@ -631,10 +644,13 @@ body {
   </div>
 </div>
 
+</div>
+
+
 <div style="background-color: #000313;color: white;margin-top: -20px;min-height: 700px">
 <div class = "events-header" style="height: 50%;padding-bottom: 100px">
 <h1 style="font-family: 'Alfa Slab One', cursive;
-; letter-spacing: 3px;color: white;text-align: center;" >Our Events</h1>
+; letter-spacing: 3px;color: white;text-align: center;" >Highlighted Events</h1>
 <br>
 <h4 style="color: #036197;letter-spacing: 2px;text-align: center;">- Come see what we have in store for you -</h4>
 </div>
@@ -667,7 +683,28 @@ body {
   </div>
 </div>
 </div>
-<div class="scheduleandshit" style="background-color: #000917;margin-top: -10px">
+<div id='content'>
+  <div class='container'>
+    <section class='first-section'>
+      <div class='row' style="margin-top: 15%;margin-bottom: 20%;text-align: center;">
+        <div class='about-vid  col-lg-6 col-md-6 col-sm-6' style="overflow: hidden;">
+          <img src="https://i.imgur.com/iPlrYte.png"/>
+        </div>
+        <div class='about-text col-sm-6' style="text-align: center;">
+            <h1 class="aboutwithunderline" style="font-family: 'Alfa Slab One', cursive;
+                    ; letter-spacing: 4px;color: white">Falling Walls Lab</h1>
+            </div>
+            <div class=' about-text ' style="text-align: jusitify;">
+            <br><hr><br>
+               <p style="margin-top: 40px">
+                aLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum, nunc vitae laoreet imperdiet, dui neque pulvinar mi, non convallis dolor sem in orci. Morbi ac mauris nec diam vulputate vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse non magna rutrum, facilisis lectus ut, volutpat libero. Donec ante leo, sodales eu urna vel, molestie euismod ligul.
+            </p>
+            </div>          
+    	</div>
+      </div>
+    </section>
+  </div>
+<div class="temp-hide scheduleandshit" style="background-color: #000917;margin-top: -10px">
 <div style="height: 30%">
    <h4 style="padding-top: 10%;color: white">BPlans? Internships ? Great Personalities? Don't worry, we have got you all covered </h4>
    </div>
@@ -685,7 +722,7 @@ body {
   
 </div>
 </div>
-<div class="keynote row" style="height: auto;padding-bottom:50px;background-color: #000917;margin-top: -22px">
+<div class=" temp-hide keynote row" style="height: auto;padding-bottom:50px;background-color: #000917;margin-top: -22px">
 
 
     
@@ -738,7 +775,7 @@ body {
 </div>
 </div>
 
-<div class="sponsors" style="text-align: center;background-color: #000917;margin-top: -22px;padding-bottom: 50px">
+<div class="sponsors temp-hide" style="text-align: center;background-color: #000917;margin-top: -22px;padding-bottom: 50px">
     <div>
  <h2 style="font-family: 'Alfa Slab One', cursive;
 ; letter-spacing: 4px;color: white;text-align: center;padding-top: 125px">Our Sponsors </h2>
@@ -753,7 +790,78 @@ body {
     </div>
 
 </div>
+  <div class='container-fluid' id="background-footer">
+   <div style="  background-image: url("assets/img/stars.png");
+ 
+  background-size: contain;">
+ <style>
+	 .footer-social{
+    font-size:30px;
+    color:#000313;
+    text-decoration:none!important;
+    padding-left:0!important
+}
+.fa-facebook:hover{
+    color:#3b5998
+}
+.fa-linkedin:hover{
+    color:#007bb5
+}
+.fa-twitter:hover{
+    color:#55acee
+}
+.fa-youtube-play:hover{
+    color:#b00
+}
+.fa-instagram:hover{
+    color:#8a3ab9;
+}
 
+	   </style>
+     	   <section class='first-section' style="padding-bottom: 0px">
+      	<div class='row' >
+	          <div class = "events-header" style="height: 50%;padding-bottom: 100px">
+				<h1 style="font-family: 'Alfa Slab One', cursive;
+				; letter-spacing: 3px;color: white;text-align: center;" >Stay Updated</h1>
+				<br>
+				<h4 style="color: #036197;letter-spacing: 2px;text-align: center;">- Follow us on Social Media -</h4>
+			</div>
+			<div> 
+  				<a href="https://www.facebook.com/juecell/" target="_blank" class="col-xs-offset-1 col-xs-2 footer-social fa fa-facebook"></a>
+  				<a href="https://twitter.com/ju_ecell" target="_blank" class="col-xs-2 footer-social fa fa-twitter"></a> 
+  				<a href="https://in.linkedin.com/company/jadavpur-university-entrepreneurship-cell" target="_blank" class="col-xs-2 footer-social fa fa-linkedin"></a> 
+  				<a href="https://www.youtube.com/channel/UCAiMo_wiKzdJd0rPoBlmf3Q" target="_blank" class="col-xs-2 footer-social fa fa-youtube-play"></a> 
+  				<a href="https://www.instagram.com/ecell_jadavpur/" target="_blank" class="col-xs-2 footer-social fa fa-instagram"></a> 
+  			</div>
+   		</div>
+   		<br>
+   		<style>
+			@media (max-width: 767.98px) { 
+				.end-footer {
+					text-align: center !important;
+				}
+			}
+		</style>
+   		<div class='row' style="margin-top: 10% ;color: inherit; background-color: rgba(0,0,0, .5)">
+   			<div class="container-fluid" style="border-top: 1px solid rgba(22, 13, 68, 1)">
+				<div class="col-sm-8 end-footer" style="text-align: left">
+					<img id="footer-logo" src="https://i.imgur.com/NSBCfAX.png" style="margin-top:10px;margin-bottom:10px;height:70px">
+				</div>
+				<div class="col-sm-4 end-footer" style="text-align: right;color:whitesmoke; padding-top:1.5%;font-size:15px">
+					<div class="col-xs-12">
+						ecell@jadavpuruniversity.in
+					</div>
+					<div class="col-xs-12">
+						+91 9876543210
+					</div>
+				</div>				
+			</div>
+		</div>
+      </div>
+    </section>
+</div>
+  </div>
+</div>
 
 
 <script type="text/javascript">
