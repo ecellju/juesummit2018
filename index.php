@@ -237,14 +237,16 @@ p {
 }
 */
 @media only screen and (max-width: 768px) {
-  #hero {
+/*  #hero {
     display: none;
   }
 
   #hero-mobile {
     display: block;
   }
+*/
 }
+	
 .tutorial-link {
   color: #fff;
   font-size: 18px;
@@ -609,9 +611,9 @@ body {
     <section class='first-section'>
       <div class='row' >
         <div class='col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3' >
-          <img src="assets/img/logo.png" style="height: 400px ; width:  600px;" />
+          <img src="assets/img/logo.png" style="max-width:  100%;" />
          
-          <h3 style="letter-spacing: 3px;text-align: center;color: white;margin-top: -115px">Tomorrow happens here</h3>
+<!--          <h3 style="text-align: center;color: white;margin-top: -115px">Tomorrow happens here</h3>-->
         </div>
       </div>
       <div class='row' style="margin-top: 5%;margin-bottom: 20%;text-align: center;">
@@ -686,7 +688,7 @@ body {
     <section class='first-section'>
       <div class='row' style="margin-top: 15%;margin-bottom: 20%;text-align: center;">
         <div class='about-vid  col-lg-6 col-md-6 col-sm-6' style="overflow: hidden;">
-          <img src="https://i.imgur.com/iPlrYte.png"/>
+          <img src="https://i.imgur.com/iPlrYte.png"  style="max-width:  100%;"/>
         </div>
         <div class='about-text col-sm-6' style="text-align: center;">
             <h1 class="aboutwithunderline" style="font-family: 'Alfa Slab One', cursive;
@@ -846,7 +848,7 @@ body {
    		<div class='row' style="margin-top: 10% ;color: inherit; background-color: rgba(0,0,0, .5)">
    			<div class="container-fluid" style="border-top: 1px solid rgba(22, 13, 68, 1)">
 				<div class="col-sm-8 end-footer" style="text-align: left">
-					<img id="footer-logo" src="https://i.imgur.com/NSBCfAX.png" style="margin-top:10px;margin-bottom:10px;height:70px">
+					<img id="footer-logo" src="https://i.imgur.com/0d21Q0b.png" style="margin-top:10px;margin-bottom:10px;max-width:100%">
 				</div>
 				<div class="col-sm-4 end-footer" style="text-align: right;color:whitesmoke; padding-top:1.5%;font-size:15px">
 					<div class="col-xs-12">
