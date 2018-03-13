@@ -590,9 +590,7 @@ body {
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
 </head>
 	<body id="background">
-<div class="container-fluid">
-		<div class="row">
-				<div class = "col-xs-12" id='hero'>
+				<div id='hero'>
 		  <div class='layer-2 layer' data-depth='0.50' data-type='parallax'></div>
 		  <div class='layer-bg layer' data-depth='0.10' data-type='parallax'></div>
 		  <div class='layer-1 layer' data-depth='0.20' data-type='parallax'></div>
@@ -600,8 +598,8 @@ body {
 		  <div class='layer-4 layer' id="iron-man" data-depth='1.00' data-type='parallax'></div>
 		  <div class='layer-3 layer' data-depth='0.80' data-type='parallax'></div>
 		  <div class='layer-overlay layer' data-depth='0.85' data-type='parallax'></div>
-	</div>
-  </div>
+			</div>
+  
 <div id='hero-mobile'></div>
 
 
@@ -697,7 +695,10 @@ body {
             <div class=' about-text ' style="text-align: jusitify;">
             <br><hr><br>
                <p style="margin-top: 40px">
-                aLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum, nunc vitae laoreet imperdiet, dui neque pulvinar mi, non convallis dolor sem in orci. Morbi ac mauris nec diam vulputate vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse non magna rutrum, facilisis lectus ut, volutpat libero. Donec ante leo, sodales eu urna vel, molestie euismod ligul.
+               Where scientists , economists, Nobel laureates and professors and inventors orate about their discoveries and make the world aware of the amazing inventions having the potential to change the world.
+               <hr>
+               <strong>Venue</strong> : Gandhi Bhavan , Jadavpur University<br>
+               <strong>Date </strong> : 8th April, 2018
             </p>
             </div>          
    	  </div>
