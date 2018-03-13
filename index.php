@@ -166,7 +166,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#160d44', end
   background-position: bottom center;
   background-size: auto;
   background-repeat: no-repeat;
-  width: 100%;
+  max-width: 100%;
   height: 800px;
   position: fixed;
   z-index: -1;
@@ -200,6 +200,7 @@ p {
 
 #hero, .layer {
   min-height: 800px;
+	max-width: 100%
 }
 
 .layer-bg {
@@ -209,18 +210,19 @@ p {
 .layer-1 {
   background-image: url("assets/img/moon.png");
   background-position: right top;
+	max-width: 100%
 }
 
 .layer-2 {
   background-image: url("assets/img/stars.png");
- 
+ max-width: 100%
   background-size: contain;
 }
 
 .layer-3 {
   background-image: url("assets/img/mm2.png");
   
-
+max-width: 100%
 }
 
 .layer-4 {
