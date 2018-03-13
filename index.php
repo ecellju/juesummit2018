@@ -2,10 +2,10 @@
 <html>
 	<head>
 		<title>E Summit</title>
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-
 
 		<style type="text/css">
 html{
@@ -166,7 +166,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#160d44', end
   background-position: bottom center;
   background-size: auto;
   background-repeat: no-repeat;
-  max-width: 100%;
+  width: 100%;
   height: 800px;
   position: fixed;
   z-index: -1;
@@ -200,7 +200,6 @@ p {
 
 #hero, .layer {
   min-height: 800px;
-	max-width: 100%
 }
 
 .layer-bg {
@@ -210,19 +209,18 @@ p {
 .layer-1 {
   background-image: url("assets/img/moon.png");
   background-position: right top;
-	max-width: 100%
 }
 
 .layer-2 {
   background-image: url("assets/img/stars.png");
- max-width: 100%
+ 
   background-size: contain;
 }
 
 .layer-3 {
   background-image: url("assets/img/mm2.png");
   
-max-width: 100%
+
 }
 
 .layer-4 {
@@ -243,7 +241,7 @@ max-width: 100%
     display: none;
   }
 
-  #vertical-event {
+  #vertical-eventmobile {
     display: block;
   }
 }
@@ -649,7 +647,7 @@ body {
 </div>
 
 
-<div id="horizontal-event" style="background-color: #000313;color: white;margin-top: -20px;min-height: 700px">
+<div style="background-color: #000313;color: white;margin-top: -20px;min-height: 700px">
 <div class = "events-header" style="height: 50%;padding-bottom: 100px">
 <h1 style="font-family: 'Alfa Slab One', cursive;
 ; letter-spacing: 3px;color: white;text-align: center;" >Highlighted Events</h1>
