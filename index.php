@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head>
+<head>
 		<title>E Summit</title>
 
 
@@ -237,11 +237,11 @@ p {
 }
 */
 @media only screen and (max-width: 768px) {
-  #horizontal-event {
+  #hero {
     display: none;
   }
 
-  #vertical-eventmobile {
+  #hero-mobile {
     display: block;
   }
 }
@@ -588,20 +588,20 @@ body {
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
-
-
-		
-	</head>
+</head>
 	<body id="background">
-		<div id='hero'>
-  <div class='layer-2 layer' data-depth='0.50' data-type='parallax'></div>
-  <div class='layer-bg layer' data-depth='0.10' data-type='parallax'></div>
-  <div class='layer-1 layer' data-depth='0.20' data-type='parallax'></div>
-  
-  <div class='layer-4 layer' id="iron-man" data-depth='1.00' data-type='parallax'></div>
-  <div class='layer-3 layer' data-depth='0.80' data-type='parallax'></div>
-  <div class='layer-overlay layer' data-depth='0.85' data-type='parallax'></div>
-</div>
+<div class="container-fluid">
+		<div class="row">
+				<div class = "col-xs-12" id='hero'>
+		  <div class='layer-2 layer' data-depth='0.50' data-type='parallax'></div>
+		  <div class='layer-bg layer' data-depth='0.10' data-type='parallax'></div>
+		  <div class='layer-1 layer' data-depth='0.20' data-type='parallax'></div>
+
+		  <div class='layer-4 layer' id="iron-man" data-depth='1.00' data-type='parallax'></div>
+		  <div class='layer-3 layer' data-depth='0.80' data-type='parallax'></div>
+		  <div class='layer-overlay layer' data-depth='0.85' data-type='parallax'></div>
+	</div>
+  </div>
 <div id='hero-mobile'></div>
 
 
@@ -693,7 +693,7 @@ body {
         <div class='about-text col-sm-6' style="text-align: center;">
             <h1 class="aboutwithunderline" style="font-family: 'Alfa Slab One', cursive;
                     ; letter-spacing: 4px;color: white">Falling Walls Lab</h1>
-            </div>
+        </div>
             <div class=' about-text ' style="text-align: jusitify;">
             <br><hr><br>
                <p style="margin-top: 40px">
@@ -703,14 +703,14 @@ body {
                <strong>Date </strong> : 8th April, 2018
             </p>
             </div>          
-    	</div>
+   	  </div>
       </div>
     </section>
   </div>
 <div class="temp-hide scheduleandshit" style="background-color: #000917;margin-top: -10px">
 <div style="height: 30%">
    <h4 style="padding-top: 10%;color: white">BPlans? Internships ? Great Personalities? Don't worry, we have got you all covered </h4>
-   </div>
+  </div>
     <div class="wrapper">
 
   <br>
