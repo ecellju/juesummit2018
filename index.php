@@ -697,10 +697,7 @@ body {
             <div class=' about-text ' style="text-align: jusitify;">
             <br><hr><br>
                <p style="margin-top: 40px">
-               Where scientists , economists, Nobel laureates and professors and inventors orate about their discoveries and make the world aware of the amazing inventions having the potential to change the world.
-               <hr>
-               <strong>Venue</strong> : Gandhi Bhavan , Jadavpur University<br>
-               <strong>Date </strong> : 8th April, 2018
+                aLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum, nunc vitae laoreet imperdiet, dui neque pulvinar mi, non convallis dolor sem in orci. Morbi ac mauris nec diam vulputate vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse non magna rutrum, facilisis lectus ut, volutpat libero. Donec ante leo, sodales eu urna vel, molestie euismod ligul.
             </p>
             </div>          
    	  </div>
