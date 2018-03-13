@@ -649,8 +649,7 @@ body {
 
 <div style="background-color: #000313;color: white;margin-top: -20px;min-height: 700px">
 <div class = "events-header" style="height: 50%;padding-bottom: 100px">
-<h1 style="font-family: 'Alfa Slab One', cursive;
-; letter-spacing: 3px;color: white;text-align: center;" >Highlighted Events</h1>
+<h1 style="font-family: 'Alfa Slab One', cursive;color: white;text-align: center;" >Highlighted Events</h1>
 <br>
 <h4 style="color: #036197;letter-spacing: 2px;text-align: center;">- Come see what we have in store for you -</h4>
 </div>
