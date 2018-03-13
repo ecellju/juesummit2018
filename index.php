@@ -237,11 +237,11 @@ p {
 }
 */
 @media only screen and (max-width: 768px) {
-  #hero {
+  #horizontal-event {
     display: none;
   }
 
-  #hero-mobile {
+  #vertical-event {
     display: block;
   }
 }
@@ -647,7 +647,7 @@ body {
 </div>
 
 
-<div style="background-color: #000313;color: white;margin-top: -20px;min-height: 700px">
+<div id="horizontal-event" style="background-color: #000313;color: white;margin-top: -20px;min-height: 700px">
 <div class = "events-header" style="height: 50%;padding-bottom: 100px">
 <h1 style="font-family: 'Alfa Slab One', cursive;
 ; letter-spacing: 3px;color: white;text-align: center;" >Highlighted Events</h1>
@@ -697,7 +697,10 @@ body {
             <div class=' about-text ' style="text-align: jusitify;">
             <br><hr><br>
                <p style="margin-top: 40px">
-                aLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum, nunc vitae laoreet imperdiet, dui neque pulvinar mi, non convallis dolor sem in orci. Morbi ac mauris nec diam vulputate vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse non magna rutrum, facilisis lectus ut, volutpat libero. Donec ante leo, sodales eu urna vel, molestie euismod ligul.
+               Where scientists , economists, Nobel laureates and professors and inventors orate about their discoveries and make the world aware of the amazing inventions having the potential to change the world.
+               <hr>
+               <strong>Venue</strong> : Gandhi Bhavan , Jadavpur University<br>
+               <strong>Date </strong> : 8th April, 2018
             </p>
             </div>          
     	</div>
