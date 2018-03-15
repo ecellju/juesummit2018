@@ -654,7 +654,7 @@ body {
 <br>
 <h4 style="color: #036197;letter-spacing: 2px;text-align: center;">- Come see what we have in store for you -</h4>
 </div>
-<div class="container2" >
+<div class="hidden-sm hidden-xs container2" >
 
   <div class=" item item1" style="color: black !important">
     <div class="content">
@@ -681,6 +681,27 @@ body {
       <button class="btn btn-info" style="background-color: black !important">Know More</button>
     </div>
   </div>
+</div>
+<div class="visible-sm visible-xs">
+    <div class="container-fluid">
+	  <div class="row">
+		<div onclick="$('#mob-event-details-Deloitte').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
+		  <p  id="mob-event-title-Deloitte" style="margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:25px;border-top-left-radius: 50px;border-top-right-radius: 50px;">
+		  	Deloitte Workshop
+		  </p>
+		  <p id="mob-event-details-Deloitte" style="display:none">
+		  	<img src="./assets/img/deloitte.png" style="width:100%">
+		  	<a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;border-bottom-left-radius: 50px;border-bottom-right-radius: 50px">Register</a>
+		  </p>
+		</div>
+		<br>
+		<div class="col-sm-6 col-sm-offset-3">
+		  <p  id="mob-event-title-Deloitte" style="margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:25px;border-top-left-radius: 50px;border-top-right-radius: 50px;border-bottom-right-radius: 50px;border-bottom-left-radius: 50px;">
+		  	Stay Tuned, More to Come...
+		  </p>
+		</div>
+	  </div>
+	</div>
 </div>
 </div>
 <div id='content'>
@@ -924,7 +945,6 @@ $(document).ready(function() {
     
 });
 </script>
-
 		
 
 	</body>
