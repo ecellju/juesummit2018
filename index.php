@@ -686,12 +686,12 @@ body {
     <div class="container-fluid">
 	  <div class="row">
 		<div onclick="$('#mob-event-details-Deloitte').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
-		  <p  id="mob-event-title-Deloitte" style="margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:25px;border-top-left-radius: 50px;border-top-right-radius: 50px;">
+		  <p  id="mob-event-title-Deloitte" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:25px;border-top-left-radius: 50px;border-top-right-radius: 50px;">
 		  	Deloitte Workshop
 		  </p>
 		  <p id="mob-event-details-Deloitte" style="display:none">
 		  	<img src="./assets/img/deloitte.png" style="width:100%">
-		  	<a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;border-bottom-left-radius: 50px;border-bottom-right-radius: 50px">Register</a>
+		  	<a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;border-bottom-left-radius: 500px;border-bottom-right-radius: 500px"><small>Date: 8th April | Time: 2 PM</small><br><strong>Register</strong></a>
 		  </p>
 		</div>
 		<br>
