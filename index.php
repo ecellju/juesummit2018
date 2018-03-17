@@ -71,7 +71,7 @@ display:flex;
     background-image: url('assets/img/esummitflex3.jpg');
 }
 .container2 .item5:before{
-    background-image: url('assets/img/esummitflex1.jpg');
+    background-image: url('assets/img/esummitflex4.jpg');
 }
 .container2 .item1:before{
     background-image: url('https://cdn4.euraxess.org/sites/default/files/news/falling_walls_sing_2017.jpg');
