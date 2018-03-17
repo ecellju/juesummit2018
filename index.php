@@ -58,7 +58,7 @@ display:flex;
   background-size: cover;
  
 }
-.container2 .item2:before {
+.container2 .item4:before {
   background-image: url('assets/img/deloitte.jpg');
 }
 .container2 .item1:before{
@@ -67,10 +67,10 @@ display:flex;
 .container2 .item3:before{
     background-image: url('assets/img/INTERNSHIP MATCHMAKING (1).jpg');
 }
-.container2 .item4:before{
+.container2 .item5:before{
     background-image: url('assets/img/GUEST TALKS.jpg');
 }
-.container2 .item5:before{
+.container2 .item2:before{
     background-image: url('assets/img/b-plan.jpg');
 }
 .container2 .item:hover {
