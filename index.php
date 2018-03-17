@@ -62,16 +62,16 @@ display:flex;
   background-image: "ilu_02.png";
 }
 .container2 .item2:before{
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/82/Ashton_Kutcher_talks_at_Startup_School.jpg');
+  background-image: url('assets/img/esummitflex1.jpg');
 }
 .container2 .item3:before{
-    background-image: url('https://www.citylifebarcelona.com/wp-content/uploads/POSTER_WIN-Prizes_FINAL_BCN.jpg');
+    background-image: url('assets/img/esummitflex2.jpg');
 }
 .container2 .item4:before{
-    background-image: url('https://www.artflakes.com/artwork/products/1238440/zoom/no215-my-the-internship-minimal-movie-poster.jpg');
+    background-image: url('assets/img/esummitflex3.jpg');
 }
 .container2 .item5:before{
-    background-image: url('http://graphicgoogle.com/wp-content/uploads/2016/12/Creative-Designer-Lecture-Poster-2.jpg');
+    background-image: url('assets/img/esummitflex1.jpg');
 }
 .container2 .item1:before{
     background-image: url('https://cdn4.euraxess.org/sites/default/files/news/falling_walls_sing_2017.jpg');
