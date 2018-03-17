@@ -73,9 +73,6 @@ display:flex;
 .container2 .item5:before{
     background-image: url('assets/img/b-plan.jpg');
 }
-.container2 .item1:before{
-    background-image: url('https://cdn4.euraxess.org/sites/default/files/news/falling_walls_sing_2017.jpg');
-}
 .container2 .item:hover {
   -webkit-transition: .5s;
   transition: .5s;
