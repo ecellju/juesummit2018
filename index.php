@@ -59,19 +59,19 @@ display:flex;
  
 }
 .container2 .item1:before {
-  background-image: "ilu_02.png";
+  background-image: url('assets/img/deloitte.jpg');
 }
 .container2 .item2:before{
-  background-image: url('assets/img/esummitflex1.jpg');
+  background-image: url('assets/img/PRODUCT EXPO.jpg');
 }
 .container2 .item3:before{
-    background-image: url('assets/img/esummitflex2.jpg');
+    background-image: url('assets/img/INTERNSHIP MATCHMAKING (1).jpg');
 }
 .container2 .item4:before{
-    background-image: url('assets/img/esummitflex3.jpg');
+    background-image: url('assets/img/GUEST TALKS.jpg');
 }
 .container2 .item5:before{
-    background-image: url('assets/img/esummitflex4.jpg');
+    background-image: url('assets/img/b-plan.jpg');
 }
 .container2 .item1:before{
     background-image: url('https://cdn4.euraxess.org/sites/default/files/news/falling_walls_sing_2017.jpg');
