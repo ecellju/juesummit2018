@@ -58,10 +58,10 @@ display:flex;
   background-size: cover;
  
 }
-.container2 .item1:before {
+.container2 .item2:before {
   background-image: url('assets/img/deloitte.jpg');
 }
-.container2 .item2:before{
+.container2 .item1:before{
   background-image: url('assets/img/PRODUCT EXPO.jpg');
 }
 .container2 .item3:before{
