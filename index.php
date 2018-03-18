@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 		<title>JU Entrepreneurship Summit '18 | JU ECell</title>
