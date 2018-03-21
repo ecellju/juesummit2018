@@ -725,7 +725,7 @@ body {
       </div>
     </section>
   </div>
-<div class="scheduleandshit" style="background-color: #000917;margin-top: -10px">
+<div class="scheduleandshit" style="background-color: #000917;margin-top: -10px;padding-bottom:40px">
 <div style="height: 30%">
    <h4 style="padding-top: 10%;color: white">BPlans? Internships ? Great Personalities? Don't worry, we have got you all covered </h4>
   </div>
@@ -738,7 +738,7 @@ body {
     <span class="buttonschedule__text">Schedule for E Summit  <i class="fas fa-clipboard-list"></i>
 
 </span>
-	<a "target="_blank" style="text-decoration:none" href="assets/img/JUEsummit2018Schedule.jpeg" >  <span class="buttonschedule__text buttonschedule__text--bis">Schedule for E Summit</span></a>
+	<a target="_blank" style="text-decoration:none" href="assets/img/JUEsummit2018Schedule.jpeg" >  <span class="buttonschedule__text buttonschedule__text--bis">Schedule for E Summit</span></a>
   </div>
   
 </div>
