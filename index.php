@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 		<title>JU Entrepreneurship Summit '18 | JU ECell</title>
@@ -65,10 +65,10 @@ display:flex;
   background-image: url('assets/img/PRODUCT EXPO.jpg');
 }
 .container2 .item3:before{
-    background-image: url('assets/img/INTERNSHIP MATCHMAKING (1).jpg');
+    background-image: url('assets/img/INTERNSHIPMATCHMAKING.jpg');
 }
 .container2 .item5:before{
-    background-image: url('assets/img/GUEST TALKS.jpg');
+    background-image: url('assets/img/GUESTTALKS.jpg');
 }
 .container2 .item2:before{
     background-image: url('assets/img/b-plan.jpg');
@@ -679,24 +679,80 @@ body {
     </div>
   </div>
 </div>
-<div class="visible-sm visible-xs">
+<div class="visible-sm visible-xs" style="font-family: Times, sans-serif;">
     <div class="container-fluid">
 	  <div class="row">
 		<div onclick="$('#mob-event-details-Deloitte').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
-		  <p  id="mob-event-title-Deloitte" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:25px;border-top-left-radius: 50px;border-top-right-radius: 50px;">
-		  	Deloitte Workshop
+		  <p  id="mob-event-title-Deloitte" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">Deloitte Workshop
 		  </p>
 		  <p id="mob-event-details-Deloitte" style="display:none">
-		  	<img src="./assets/img/deloitte.png" style="width:100%">
-		  	<a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;border-bottom-left-radius: 500px;border-bottom-right-radius: 500px"><small>Date: 8th April | Time: 2 PM</small><br><strong>Register</strong></a>
+		  	<img src="./assets/img/deloitte.jpg" style="width:100%">
+		  	<a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 8th April | Time: 2 PM</small><br><strong>Register</strong></a>
 		  </p>
 		</div>
+
+
+    <br>
+
+
+
+    <div onclick="$('#mob-event-details-internship').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
+      <p  id="mob-event-title-internship" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">
+        Internship Matchmaking
+      </p>
+      <p id="mob-event-details-internship" style="display:none">
+        <img src="./assets/img/INTERNSHIPMATCHMAKING.jpg" style="width:100%">
+        <a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 8th April | Time: 11 AM</small><br><strong>Register</strong></a>
+      </p>
+    </div>
+
+    <br>
+     <div onclick="$('#mob-event-details-b-plan').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
+      <p  id="mob-event-title-internship" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">
+        B-PLan
+      </p>
+      <p id="mob-event-details-b-plan" style="display:none">
+        <img src="./assets/img/b-plan.jpg" style="width:100%">
+        <a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 8th April | Time: 11 AM</small><br><strong>Register</strong></a>
+      </p>
+    </div>
+
+    <br>
+
+    <div onclick="$('#mob-event-details-bplan').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
+      <p  id="mob-event-title-bplan" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">
+        PWC Case Challenge cum Workshop
+      </p>
+      <p id="mob-event-details-bplan" style="display:none">
+        <img src="./assets/img/b-plan.jpg" style="width:100%">
+        <a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 6th April | Time: 3 PM</small><br><strong>Register</strong></a>
+      </p>
+    </div>
+    <br>
+
+    <div onclick="$('#mob-event-details-talks').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
+      <p  id="mob-event-title-Deloitte" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">
+        Talks
+      </p>
+      <p id="mob-event-details-talks" style="display:none">
+        <img src="./assets/img/GUESTTALKS.jpg" style="width:100%">
+        <a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 8th April | Time: 3 PM</small><br><strong>Register</strong></a>
+      </p>
+    </div>
+<br>
+
+
+
+
+
+
+
 		<br>
-		<div class="col-sm-6 col-sm-offset-3">
+		<!--<div class="col-sm-6 col-sm-offset-3">
 		  <p  id="mob-event-title-Deloitte" style="margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:25px;border-top-left-radius: 50px;border-top-right-radius: 50px;border-bottom-right-radius: 50px;border-bottom-left-radius: 50px;">
 		  	Stay Tuned, More to Come...
 		  </p>
-		</div>
+		</div>-->
 	  </div>
 	</div>
 </div>
@@ -725,7 +781,7 @@ body {
       </div>
     </section>
   </div>
-<div class="scheduleandshit" style="background-color: #000917;margin-top: -10px;padding-bottom:40px">
+<div class="scheduleandshit" style="background-color: #000313;margin-top: -10px;padding-bottom:40px">
 <div style="height: 30%">
    <h4 style="padding-top: 10%;color: white">BPlans? Internships ? Great Personalities? Don't worry, we have got you all covered </h4>
   </div>
