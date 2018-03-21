@@ -738,7 +738,7 @@ body {
     <span class="buttonschedule__text">Schedule for E Summit  <i class="fas fa-clipboard-list"></i>
 
 </span>
-	  <span class="buttonschedule__text buttonschedule__text--bis"><a "target="_blank" styke="text-decoration:none" href="JUESummit2018Schedule.jpeg" >Schedule for E Summit</a></span>
+	<a "target="_blank" style="text-decoration:none" href="assets/img/JUEsummit2018Schedule.jpeg" >  <span class="buttonschedule__text buttonschedule__text--bis">Schedule for E Summit</span></a>
   </div>
   
 </div>
