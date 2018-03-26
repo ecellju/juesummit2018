@@ -1,14 +1,12 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-		<title>JU Entrepreneurship Summit '18 | JU ECell</title>
-
-
-
+<title>JU Entrepreneurship Summit '18 | JU ECell</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Kolkata's First Entrepreneurship">
-    <meta name="author" content="JU Entrepreneurship Cell">
-		<style type="text/css">
+<meta name="description" content="Kolkata's First Entrepreneurship Summit">
+<meta name="author" content="JU Entrepreneurship Cell">
+<script src="/cdn-cgi/apps/head/iD08i1R6BEaMiMFpNO35F480QDA.js"></script><style type="text/css">
 html{
     height: 100%;
 }
@@ -42,7 +40,7 @@ display:flex;
   color: white;
   -webkit-transition: .3s;
   transition: .3s;
-  max-width: 20%;
+  max-width: 25%;
   height: 100vh;
   min-width: 10%;
   background-color: rgba(34, 34, 34, 0.4);
@@ -59,19 +57,19 @@ display:flex;
  
 }
 .container2 .item4:before {
-  background-image: url('assets/img/deloitte.jpg');
+  background-image: url('https://imgur.com/xF1IM3z.jpg');
 }
 .container2 .item1:before{
-  background-image: url('assets/img/PRODUCT EXPO.jpg');
+  background-image: url('https://imgur.com/tdYXJcz.jpg');
 }
 .container2 .item3:before{
-    background-image: url('assets/img/INTERNSHIPMATCHMAKING.jpg');
+    background-image: url('https://imgur.com/9wpeMog.jpg');
 }
 .container2 .item5:before{
-    background-image: url('assets/img/GUESTTALKS.jpg');
+    background-image: url('https://imgur.com/70gG9xC.jpg');
 }
 .container2 .item2:before{
-    background-image: url('assets/img/b-plan.jpg');
+    background-image: url('https://imgur.com/NmyPX9m.jpg');
 }
 .container2 .item:hover {
   -webkit-transition: .5s;
@@ -201,28 +199,28 @@ p {
 }
 
 .layer-bg {
-  background-image: url("assets/img/mm.png");
+  background-image: url("https://imgur.com/2JVASEQ.png");
 }
 
 .layer-1 {
-  background-image: url("assets/img/moon.png");
+  background-image: url("https://imgur.com/a/cQ4xe.png");
   background-position: right top;
 }
 
 .layer-2 {
-  background-image: url("assets/img/stars.png");
+  background-image: url("https://imgur.com/QJxyFRI.png");
  
   background-size: contain;
 }
 
 .layer-3 {
-  background-image: url("assets/img/mm2.png");
+  background-image: url("https://imgur.com/Sci3JPH.png");
   
 
 }
 
 .layer-4 {
-  background-image: url("assets/img/ironman2.png");
+  background-image: url("https://imgur.com/jFwkOWQ.png");
   transform: translate(0,10px);
 	-ms-transform: translate(0,10px); /* IE 9 */
     -webkit-transform: translate(0,10px); /* Safari */
@@ -571,307 +569,224 @@ body {
     opacity: 1;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 		</style>
-<!--		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>-->
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
 </head>
-	<body id="background">
-				<div id='hero'>
-		  <div class='layer-2 layer' data-depth='0.50' data-type='parallax'></div>
-		  <div class='layer-bg layer' data-depth='0.10' data-type='parallax'></div>
-		  <div class='layer-1 layer' data-depth='0.20' data-type='parallax'></div>
-
-		  <div class='layer-4 layer' id="iron-man" data-depth='1.00' data-type='parallax'></div>
-		  <div class='layer-3 layer' data-depth='0.80' data-type='parallax'></div>
-		  <div class='layer-overlay layer' data-depth='0.85' data-type='parallax'></div>
-			</div>
-  
+<body id="background" style="overflow-x:hidden">
+<div id='hero'>
+<div class='layer-2 layer' data-depth='0.50' data-type='parallax'></div>
+<div class='layer-bg layer' data-depth='0.10' data-type='parallax'></div>
+<div class='layer-1 layer' data-depth='0.20' data-type='parallax'></div>
+<div class='layer-4 layer' id="iron-man" data-depth='1.00' data-type='parallax'></div>
+<div class='layer-3 layer' data-depth='0.80' data-type='parallax'></div>
+<div class='layer-overlay layer' data-depth='0.85' data-type='parallax'></div>
+</div>
 <div id='hero-mobile'></div>
-
-
 <div id='content'>
-
-  <div class='container'>
-    <section class='first-section'>
-      <div class='row' >
-        <div class='col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3' >
-          <img src="assets/img/logo.png" style="max-width:  100%;" />
-         
-<!--          <h3 style="text-align: center;color: white;margin-top: -115px">Tomorrow happens here</h3>-->
-        </div>
-      </div>
-      <div class='row' style="margin-top: 5%;margin-bottom: 20%;text-align: center;">
-<!--
-        <div class='about-vid  col-lg-6 col-md-6 col-sm-6' style="overflow: hidden;">
-          <img src="https://media1.tenor.com/images/ec324ff5561eafab43cc4b88382c8439/tenor.gif?itemid=3518069"/>
-        </div>
--->
-        <div class='about-text col-sm-12' style="text-align: center;">
-            <div></div>
-<!--
-            <h1 class="aboutwithunderline hideme" style="font-family: 'Alfa Slab One', cursive;
-                    ; letter-spacing: 4px;color: white">About</h1>
--->
-            </div>
-            <div >
-            <div id="divToShowHide" class=' hideme about-text ' style="text-align: center;">
-            <br><br>
-               <p>
-                Jadavpur University Entrepreneurship Cell presents to you <strong>Jadavpur University Entrepreneurship Summit 2018</strong>.<br> This will marks Jadavpur University’s arrival in the league of institutions promoting and nurturing entrepreneurship among the youth. We wish to ignite the passion of Entrepreneurship in the minds of the students, as well as reward the entrepreneurial zest.
-            </p>
-            </div>
-            </div>
-          
-    </div>
-      </div>
-    </section>
-  </div>
-</div>
+<div class='container'>
+<section class='first-section'>
+<div class='row'>
+<div class='col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3'>
+<img src="https://imgur.com/ZTJlhwR.png" style="max-width:  100%;" />
 
 </div>
+</div>
+<div class='row' style="margin-top: 5%;margin-bottom: 20%;text-align: center;">
 
+<div class='about-text col-sm-12' style="text-align: center;">
+<div></div>
 
+</div>
+<div>
+<div id="divToShowHide" class=' hideme about-text ' style="text-align: center;">
+<br><br>
+<p>
+Jadavpur University Entrepreneurship Cell presents to you <strong>Jadavpur University Entrepreneurship Summit 2018</strong>.<br> This marks Jadavpur University's arrival in the league of institutions promoting and nurturing entrepreneurship among the youth. We wish to ignite the passion of Entrepreneurship in the minds of the students, as well as reward the entrepreneurial zest.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
 <div style="background-color: #000313;color: white;margin-top: -20px;min-height: 700px">
-<div class = "events-header" style="height: 50%;padding-bottom: 100px">
-<h1 style="font-family: 'Alfa Slab One', cursive;color: white;text-align: center;" >Highlighted Events</h1>
+<div class="events-header" style="height: 50%;padding-bottom: 100px">
+<h1 style="font-family: 'Alfa Slab One', cursive;color: white;text-align: center;">Highlighted Events</h1>
 <br>
 <h4 style="color: #036197;letter-spacing: 2px;text-align: center;">- Come see what we have in store for you -</h4>
 </div>
-<div class="hidden-sm hidden-xs container2" >
+<div class="hidden-sm hidden-xs container2">
+<div class=" item item1" style="color: black !important">
+<div class="content">
+<a class="btn btn-info" href="http://link.juecell.in/PWCCaseChallenge" target="_blank">Know More</a>
+</div>
+</div>
 
-  <div class=" item item1" style="color: black !important">
-    <div class="content">
-   </div>
-  </div>
-  <div class="item item2" style="color: black !important">
-    <div class="content" style="color: black !important">
-     <button class="btn btn-info">Know More</button>
-    </div>
-  </div>
-  <div class="item item3" style="color: black !important">
-    <div class="content">
-      </p>
-       <button class="btn btn-info">Know More</button>
-    </div>
-  </div>
-  <div class="item item4" style="color: black !important">
-    <div class="content">
-       <button class="btn btn-info">Know More</button>
-    </div>
-  </div>
-  <div class="item item5" style="color: black !important">
-    <div class="content">
-      <button class="btn btn-info" style="background-color: black !important">Know More</button>
-    </div>
-  </div>
+<div class="item item3" style="color: black !important">
+<div class="content">
+
+<a class="btn btn-info" href="http://link.juecell.in/im" target="_blank">Know More</a>
+</div>
+</div>
+<div class="item item4" style="color: black !important">
+<div class="content">
+<a class="btn btn-info" href="http://link.juecell.in/DeloitteWorkshop" target="_blank">Know More</a>
+</div>
+</div>
+<div class="item item5" style="color: black !important">
+<div class="content">
+
+</div>
+</div>
 </div>
 <div class="visible-sm visible-xs" style="font-family: Times, sans-serif;">
-    <div class="container-fluid">
-	  <div class="row">
-		<div onclick="$('#mob-event-details-Deloitte').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
-		  <p  id="mob-event-title-Deloitte" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">Deloitte Workshop
-		  </p>
-		  <p id="mob-event-details-Deloitte" style="display:none">
-		  	<img src="./assets/img/deloitte.jpg" style="width:100%">
-		  	<a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 8th April | Time: 2 PM</small><br><strong>Register</strong></a>
-		  </p>
-		</div>
-
-
-    <br>
-
-
-
-    <div onclick="$('#mob-event-details-internship').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
-      <p  id="mob-event-title-internship" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">
-        Internship Matchmaking
-      </p>
-      <p id="mob-event-details-internship" style="display:none">
-        <img src="./assets/img/INTERNSHIPMATCHMAKING.jpg" style="width:100%">
-        <a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 8th April | Time: 11 AM</small><br><strong>Register</strong></a>
-      </p>
-    </div>
-
-    <br>
-     <div onclick="$('#mob-event-details-b-plan').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
-      <p  id="mob-event-title-internship" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">
-        B-PLan
-      </p>
-      <p id="mob-event-details-b-plan" style="display:none">
-        <img src="./assets/img/b-plan.jpg" style="width:100%">
-        <a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 8th April | Time: 11 AM</small><br><strong>Register</strong></a>
-      </p>
-    </div>
-
-    <br>
-
-    <div onclick="$('#mob-event-details-bplan').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
-      <p  id="mob-event-title-bplan" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">
-        PWC Case Challenge cum Workshop
-      </p>
-      <p id="mob-event-details-bplan" style="display:none">
-        <img src="./assets/img/b-plan.jpg" style="width:100%">
-        <a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 6th April | Time: 3 PM</small><br><strong>Register</strong></a>
-      </p>
-    </div>
-    <br>
-
-    <div onclick="$('#mob-event-details-talks').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
-      <p  id="mob-event-title-Deloitte" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">
-        Talks
-      </p>
-      <p id="mob-event-details-talks" style="display:none">
-        <img src="./assets/img/GUESTTALKS.jpg" style="width:100%">
-        <a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 8th April | Time: 3 PM</small><br><strong>Register</strong></a>
-      </p>
-    </div>
+<div class="container-fluid">
+<div class="row">
+<div onclick="$('#mob-event-details-Deloitte').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
+<p id="mob-event-title-Deloitte" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">Deloitte Workshop
+</p>
+<p id="mob-event-details-Deloitte" style="display:none">
+<img src="https://imgur.com/YkKbIoj.jpg" style="width:100%">
+<a class="btn" target="_blank" href="http://link.juecell.in/DeloitteWorkshop" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 8th April | Time: 2 PM</small><br><strong>Register</strong></a>
+</p>
+</div>
+<br>
+<div onclick="$('#mob-event-details-internship').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
+<p id="mob-event-title-internship" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">
+Internship Matchmaking
+</p>
+<p id="mob-event-details-internship" style="display:none">
+<img src="https://imgur.com/QpjLtUm.jpg" style="width:100%">
+<a class="btn" target="_blank" href="http://link.juecell.in/im" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 8th April | Time: 11 AM</small><br><strong>Register</strong></a>
+</p>
+</div>
 <br>
 
+<div onclick="$('#mob-event-details-bplan').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
+<p id="mob-event-title-bplan" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">
+PWC Case Challenge cum Workshop
+</p>
+<p id="mob-event-details-bplan" style="display:none">
+<img src="https://imgur.com/tdYXJcz.jpg" style="width:100%">
+<a class="btn" target="_blank" href="http://link.juecell.in/PWCcaseChallenge" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 6th April | Time: 3 PM</small><br><strong>Register</strong></a>
+</p>
+</div>
+<br>
+<div onclick="$('#mob-event-details-talks').slideToggle('3000');" class="col-sm-6 col-sm-offset-3">
+<p id="mob-event-title-Deloitte" style="cursor:pointer;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:22px;">
+Talks
+</p>
+<p id="mob-event-details-talks" style="display:none">
+<img src="https://imgur.com/hEFGRpZ.jpg" style="width:100%">
+<a class="btn" style="text-decoration: none; font-size:20px;margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;"><small>Date: 8th April | Time: 3 PM</small><br><strong>Register</strong></a>
+</p>
+</div>
+<br>
+<br>
 
-
-
-
-
-
-		<br>
-		<!--<div class="col-sm-6 col-sm-offset-3">
-		  <p  id="mob-event-title-Deloitte" style="margin-bottom:0;text-align:center;background-color:white;color:black;min-height:40px;width:100%;border:1px solid white ;font-size:25px;border-top-left-radius: 50px;border-top-right-radius: 50px;border-bottom-right-radius: 50px;border-bottom-left-radius: 50px;">
-		  	Stay Tuned, More to Come...
-		  </p>
-		</div>-->
-	  </div>
-	</div>
+</div>
+</div>
 </div>
 </div>
 <div id='content'>
-  <div class='container'>
-    <section class='first-section'>
-      <div class='row' style="margin-top: 15%;margin-bottom: 20%;text-align: center;">
-        <div class='about-vid  col-lg-6 col-md-6 col-sm-6' style="overflow: hidden;">
-          <img src="https://i.imgur.com/iPlrYte.png"  style="max-width:  100%;"/>
-        </div>
-        <div class='about-text col-sm-6' style="text-align: center;">
-            <h1 class="aboutwithunderline" style="font-family: 'Alfa Slab One', cursive;
+<div class='container'>
+<section class='first-section'>
+<div class='row' style="margin-top: 15%;margin-bottom: 20%;text-align: center;">
+<div class='about-vid  col-lg-6 col-md-6 col-sm-6' style="overflow: hidden;">
+<img src="https://i.imgur.com/iPlrYte.png" style="max-width:  100%;" />
+</div>
+<div class='about-text col-sm-6' style="text-align: center;">
+<h1 class="aboutwithunderline" style="font-family: 'Alfa Slab One', cursive;
                     ; letter-spacing: 4px;color: white">Falling Walls Lab</h1>
-        </div>
-            <div class=' about-text ' style="text-align: jusitify;">
-            <br><hr><br>
-               <p style="margin-top: 40px">
-               Where scientists , economists, Nobel laureates and professors and inventors orate about their discoveries and make the world aware of the amazing inventions having the potential to change the world.
-               <hr>
-               <strong>Venue</strong> : Gandhi Bhavan , Jadavpur University<br>
-               <strong>Date </strong> : 8th April, 2018
-            </p>
-            </div>          
-   	  </div>
-      </div>
-    </section>
-  </div>
+</div>
+<div class=' about-text ' style="text-align: jusitify;">
+<br><hr><br>
+<p style="margin-top: 40px">
+Where scientists , economists, Nobel laureates and professors and inventors orate about their discoveries and make the world aware of the amazing inventions having the potential to change the world.
+<hr>
+<strong>Venue</strong> : Gandhi Bhavan , Jadavpur University<br>
+<strong>Date </strong> : 7th April, 2018
+</p>
+</div>
+</div>
+</div>
+</section>
+</div>
 <div class="scheduleandshit" style="background-color: #000313;margin-top: -10px;padding-bottom:40px">
 <div style="height: 30%">
-   <h4 style="padding-top: 10%;color: white">BPlans? Internships ? Great Personalities? Don't worry, we have got you all covered </h4>
-  </div>
-    <div class="wrapper">
-
-  <br>
-  
-  <div class="buttonschedule">
-    <span class="buttonschedule__mask"></span>
-    <span class="buttonschedule__text">Schedule for E Summit  <i class="fas fa-clipboard-list"></i>
-
+<h4 style="padding-top: 10%;color: white">BPlans? Internships ? Great Personalities? Don't worry, we have got you all covered </h4>
+</div>
+<div class="wrapper" style="display:none">
+<br>
+<div class="buttonschedule">
+<span class="buttonschedule__mask"></span>
+<span class="buttonschedule__text">Schedule for E Summit <i class="fas fa-clipboard-list"></i>
 </span>
-	<a target="_blank" style="text-decoration:none" href="assets/img/JUEsummit2018Schedule.jpeg" >  <span class="buttonschedule__text buttonschedule__text--bis">Schedule for E Summit</span></a>
-  </div>
-  
+<a target="_blank" style="text-decoration:none" href="https://imgur.com/Y892CiI.jpeg"> <span class="buttonschedule__text buttonschedule__text--bis">Schedule for E Summit</span></a>
+</div>
 </div>
 </div>
 <div class=" temp-hide keynote row" style="height: auto;padding-bottom:50px;background-color: #000917;margin-top: -22px">
-
-
-    
 <h2 style="font-family: 'Alfa Slab One', cursive;
 ; letter-spacing: 4px;color: white;text-align: center;padding-top: 125px"> Keynote Speakers </h2>
 <br>
 <h4 style="letter-spacing: 3px;color:#036197 ">-Come see these Titans right at the heart of JU-</h4>
-
-
 <div class="keynotecard col-md-4 col-sm-6" style="display: inline-block;">
-  <div class="work">
-    <img src="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ffortunedotcom.files.wordpress.com%2F2018%2F01%2Fgettyimages-543263054.jpg">
-      <div class="details"><h3>Travis Kalanick</h3>
-        <p>Random attention seeking dude</p>
-        <div class="btn">Hear him Live !</div>
-    </div>
-  </div>
+<div class="work">
+<img src="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ffortunedotcom.files.wordpress.com%2F2018%2F01%2Fgettyimages-543263054.jpg">
+<div class="details"><h3>Travis Kalanick</h3>
+<p>Random attention seeking dude</p>
+<div class="btn">Hear him Live !</div>
 </div>
-
-<div class="keynotecard col-sm-6 col-md-4" style="display: inline-block;"> 
- <div class="work">
-    <img src="https://media.wired.com/photos/593222b926780e6c04d2a195/master/w_582,c_limit/Zuck-TA-AP_17145748750763.jpg">
-      <div class="details"><h3>The Zuck</h3>
-        <p>Random attention seeking dude</p>
-        <div class="btn">Hear him Live !</div>
-    </div>
-  </div>
+</div>
+</div>
+<div class="keynotecard col-sm-6 col-md-4" style="display: inline-block;">
+<div class="work">
+<img src="https://media.wired.com/photos/593222b926780e6c04d2a195/master/w_582,c_limit/Zuck-TA-AP_17145748750763.jpg">
+<div class="details"><h3>The Zuck</h3>
+<p>Random attention seeking dude</p>
+<div class="btn">Hear him Live !</div>
+</div>
+</div>
 </div>
 <div class="keynotecard col-md-4 col-sm-6" style="display: inline-block;">
-  <div class="work">
-    <img src="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ffortunedotcom.files.wordpress.com%2F2018%2F01%2Fgettyimages-543263054.jpg">
-      <div class="details"><h3>Travis Kalanick</h3>
-        <p>Random attention seeking dude</p>
-        <div class="btn">Hear him Live !</div>
-    </div>
-  </div>
-</div>
-
-
-    <div class="wrapper">
-
-  <br>
-  
-  <div class="buttonschedule">
-    <span class="buttonschedule__mask"></span>
-    <span class="buttonschedule__text">Come hear them all   <i class="fas fa-microphone"></i> </span>
-    <span class="buttonschedule__text buttonschedule__text--bis">Come hear them all </span>
-  </div>
-  
+<div class="work">
+<img src="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ffortunedotcom.files.wordpress.com%2F2018%2F01%2Fgettyimages-543263054.jpg">
+<div class="details"><h3>Travis Kalanick</h3>
+<p>Random attention seeking dude</p>
+<div class="btn">Hear him Live !</div>
 </div>
 </div>
-
+</div>
+<div class="wrapper">
+<br>
+<div class="buttonschedule">
+<span class="buttonschedule__mask"></span>
+<span class="buttonschedule__text">Come hear them all <i class="fas fa-microphone"></i> </span>
+<span class="buttonschedule__text buttonschedule__text--bis">Come hear them all </span>
+</div>
+</div>
+</div>
 <div class="sponsors temp-hide" style="text-align: center;background-color: #000917;margin-top: -22px;padding-bottom: 50px">
-    <div>
- <h2 style="font-family: 'Alfa Slab One', cursive;
+<div>
+<h2 style="font-family: 'Alfa Slab One', cursive;
 ; letter-spacing: 4px;color: white;text-align: center;padding-top: 125px">Our Sponsors </h2>
 <br>
 <h4 style="letter-spacing: 3px;color:#036197 ">-Their support made it possible-</h4>
-    </div>
-
-    <div class="titlesponsor" style="margin-top: 150px">
-    <img src="http://diylogodesigns.com/blog/wp-content/uploads/2016/04/google-logo-icon-PNG-Transparent-Background.png" style="height: 300px;width: auto" />
-        
-<h4 style="letter-spacing: 3px;color:#036197 ">-Title Sponsor-</h4>
-    </div>
-
 </div>
-  <div class='container-fluid' id="background-footer">
-   <div style="  background-image: url("assets/img/stars.png");
- 
-  background-size: contain;">
- <style>
+<div class="titlesponsor" style="margin-top: 150px">
+
+<h4 style="letter-spacing: 3px;color:#036197 ">-Title Sponsor-</h4>
+</div>
+</div>
+<div class='container-fluid' id="background-footer">
+<div style="  background-image: url("https://imgur.com/Sci3JPH.png"); background-size: contain;">
+<style>
 	 .footer-social{
     font-size:30px;
     color:#000313;
@@ -895,53 +810,51 @@ body {
 }
 
 	   </style>
-     	   <section class='first-section' style="padding-bottom: 0px">
-      	<div class='row' >
-	          <div class = "events-header" style="height: 50%;padding-bottom: 100px">
-				<h1 style="font-family: 'Alfa Slab One', cursive;
-				; letter-spacing: 3px;color: white;text-align: center;" >Stay Updated</h1>
-				<br>
-				<h4 style="color: #036197;letter-spacing: 2px;text-align: center;">- Follow us on Social Media -</h4>
-			</div>
-			<div> 
-  				<a href="https://www.facebook.com/juecell/" target="_blank" class="col-xs-offset-1 col-xs-2 footer-social fa fa-facebook"></a>
-  				<a href="https://twitter.com/ju_ecell" target="_blank" class="col-xs-2 footer-social fa fa-twitter"></a> 
-  				<a href="https://in.linkedin.com/company/jadavpur-university-entrepreneurship-cell" target="_blank" class="col-xs-2 footer-social fa fa-linkedin"></a> 
-  				<a href="https://www.youtube.com/channel/UCAiMo_wiKzdJd0rPoBlmf3Q" target="_blank" class="col-xs-2 footer-social fa fa-youtube-play"></a> 
-  				<a href="https://www.instagram.com/ecell_jadavpur/" target="_blank" class="col-xs-2 footer-social fa fa-instagram"></a> 
-  			</div>
-   		</div>
-   		<br>
-   		<style>
+<section class='first-section' style="padding-bottom: 0px">
+<div class='row'>
+<div class="events-header" style="height: 50%;padding-bottom: 100px">
+<h1 style="font-family: 'Alfa Slab One', cursive;
+				; letter-spacing: 3px;color: white;text-align: center;">Stay Updated</h1>
+<br>
+<h4 style="color: #036197;letter-spacing: 2px;text-align: center;">- Follow us on Social Media -</h4>
+</div>
+<div>
+<a href="https://www.facebook.com/juecell/" target="_blank" class="col-xs-offset-1 col-xs-2 footer-social fa fa-facebook"></a>
+<a href="https://twitter.com/ju_ecell" target="_blank" class="col-xs-2 footer-social fa fa-twitter"></a>
+<a href="https://in.linkedin.com/company/jadavpur-university-entrepreneurship-cell" target="_blank" class="col-xs-2 footer-social fa fa-linkedin"></a>
+<a href="https://www.youtube.com/channel/UCAiMo_wiKzdJd0rPoBlmf3Q" target="_blank" class="col-xs-2 footer-social fa fa-youtube-play"></a>
+<a href="https://www.instagram.com/ecell_jadavpur/" target="_blank" class="col-xs-2 footer-social fa fa-instagram"></a>
+</div>
+</div>
+<br>
+<style>
 			@media (max-width: 767.98px) { 
 				.end-footer {
 					text-align: center !important;
 				}
 			}
 		</style>
-   		<div class='row' style="margin-top: 10% ;color: inherit; background-color: rgba(0,0,0, .5)">
-   			<div class="container-fluid" style="border-top: 1px solid rgba(22, 13, 68, 1)">
-				<div class="col-sm-8 end-footer" style="text-align: left">
-					<img id="footer-logo" src="https://i.imgur.com/0d21Q0b.png" style="max-height:70px;margin-top:10px;margin-bottom:10px;max-width:100%">
-				</div>
-				<div class="col-sm-4 end-footer" style="text-align: right;color:whitesmoke; padding-top:1.5%;font-size:15px">
-					<div class="col-xs-12">
-						ecell@jadavpuruniversity.in
-					</div>
-					<div class="col-xs-12">
-						+91 9876543210
-					</div>
-				</div>				
-			</div>
-		</div>
-      </div>
-    </section>
+<div class='row' style="margin-top: 10% ;color: inherit; background-color: rgba(0,0,0, .5)">
+<div class="container-fluid" style="border-top: 1px solid rgba(22, 13, 68, 1)">
+<div class="col-sm-8 end-footer" style="text-align: left">
+<img id="footer-logo" src="https://i.imgur.com/0d21Q0b.png" style="max-height:70px;margin-top:10px;margin-bottom:10px;max-width:100%">
 </div>
-  </div>
+<div class="col-sm-4 end-footer" style="text-align: right;color:whitesmoke; padding-top:1.5%;font-size:15px">
+<div class="col-xs-12">
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4d282e2821210d272c292c3b3d383f3823243b283f3e243934632423">[email&#160;protected]</a>
 </div>
-
-
-<script type="text/javascript">
+<div class="col-xs-12">
++91 98745 22871
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/d07b1474/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
 (function() {
   window.addEventListener('scroll', function(event) {
     var depth, i, layer, layers, len, movement, topDistance, translate3d;
@@ -964,7 +877,6 @@ body {
 
 }).call(this);
 </script>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script>
 var i=1;
@@ -975,7 +887,7 @@ var i=1;
 	}, 2000);
 	
 </script>
-<script type="text/javascript" >
+<script type="text/javascript">
 
 $(document).ready(function() {
     
@@ -998,7 +910,5 @@ $(document).ready(function() {
     
 });
 </script>
-		
-
-	</body>
+</body>
 </html>
